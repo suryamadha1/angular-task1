@@ -1,0 +1,22 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "helloworld@gmail.co",
+      "firstName": "Hello",
+      "lastName": "World"
+    },
+    {
+      "id": 2,
+      "firstName": "Hello",
+      "lastName": "World",
+      "email": "helloworld@gmail.com"
+    },
+    {
+      "id": 3,
+      "firstName": "Hello",
+      "lastName": "World",
+      "email": "helloworld@gmail.cos"
+    }
+  ]
+}
