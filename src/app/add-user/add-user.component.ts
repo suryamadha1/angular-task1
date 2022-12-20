@@ -16,7 +16,7 @@ export class AddUserComponent implements OnInit {
     ngOnInit() {
       this.addForm = this.formBuilder
       .group(
-        {id:[],firstName: ['', Validators.required],lastName:['', Validators.required],email: ['', Validators.required]}
+        {id:[],firstName: ['', Validators.required, Validators.pattern("^[a-zA-Z]{3,}$")],lastName:['', Validators.required,, Validators.pattern("^[a-zA-Z]{3,}$")],email: ['', Validators.required]}
         );
       }
     onSubmit() {
